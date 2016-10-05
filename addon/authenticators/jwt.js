@@ -330,7 +330,7 @@ export default TokenAuthenticator.extend({
   },
 
   getCurrentTime() {
-    return (new Date()).getTime();
+    return (new Date()).getTime() / 1000;
   },
 
   /**
